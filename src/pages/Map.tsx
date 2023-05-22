@@ -105,18 +105,10 @@ const placemarks = () => {
 };
 
 export const HomesMap = () => {
-    // const mapRef = useRef();
-    //
     const defaultState = {
         center: [41.319592, 69.254302],
         zoom: 12,
     };
-
-    console.log(placemarks());
-    //
-    // useEffect(() => {
-    //   console.log(mapRef.current);
-    // }, []);
 
     return (
         <YMaps>
